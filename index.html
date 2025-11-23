@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Examen Machine Learning - ISPM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 p-4 md:p-6">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
+        
+        <!-- Header -->
+        <div class="bg-blue-900 text-white p-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold uppercase tracking-wide">ISPM - Machine Learning</h1>
+                    <p class="text-blue-200 mt-1 text-sm md:text-base">Examen Final (Hackathon)</p>
+                </div>
+                <div class="text-left md:text-right">
+                    <div class="font-semibold text-base md:text-lg"><i class="far fa-calendar-alt mr-2"></i>Mardi 25 Nov 2025</div>
+                    <div class="text-xs md:text-sm text-blue-200 mt-1">ESIIA5 – IGGLIA5 – IMTICIA5 – ISAIA5</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="p-4 md:p-6">
+            <h2 class="text-xl font-bold text-gray-800 mb-4 border-b pb-2">Déroulement de la journée</h2>
+            
+            <!-- DESKTOP VIEW (Table) - Hidden on mobile -->
+            <div class="hidden md:block overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-100 text-gray-600 uppercase text-sm leading-normal">
+                            <th class="py-3 px-6 font-bold border-b border-gray-200">Heure</th>
+                            <th class="py-3 px-6 font-bold border-b border-gray-200">Activité</th>
+                            <th class="py-3 px-6 font-bold border-b border-gray-200">Lieu</th>
+                            <th class="py-3 px-6 font-bold border-b border-gray-200">Détails & Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 text-sm">
+                        
+                        <!-- 08h00 -->
+                        <tr class="border-b border-gray-200 hover:bg-gray-50">
+                            <td class="py-4 px-6 font-bold text-blue-600 whitespace-nowrap">08h00</td>
+                            <td class="py-4 px-6 font-semibold">Lancement du Sujet</td>
+                            <td class="py-4 px-6">
+                                <span class="bg-green-100 text-green-700 py-1 px-3 rounded-full text-xs">À distance</span>
+                            </td>
+                            <td class="py-4 px-6">
+                                Le sujet sera disponible sur le repository GitHub.<br>
+                                <a href="https://github.com/AndryRAB/Exam-ml-master-m2" target="_blank" class="text-blue-600 hover:underline mt-1 inline-flex items-center font-semibold">
+                                    <i class="fab fa-github mr-1"></i>Accéder au Sujet (GitHub)
+                                </a>
+                            </td>
+                        </tr>
+
+                        <!-- 09h30 Deadline - SOFTER DESIGN -->
+                        <tr class="border-b border-gray-200 bg-orange-50 hover:bg-orange-100 border-l-4 border-l-orange-400">
+                            <td class="py-4 px-6 font-bold text-orange-600 whitespace-nowrap">09h30</td>
+                            <td class="py-4 px-6 font-bold text-gray-700">Date limite d'inscription</td>
+                            <td class="py-4 px-6">
+                                <span class="bg-white text-orange-600 border border-orange-200 py-1 px-3 rounded-full text-xs font-bold">En ligne</span>
+                            </td>
+                            <td class="py-4 px-6">
+                                <div class="flex flex-col space-y-3">
+                                    <div class="text-gray-700 flex items-start">
+                                        <i class="fas fa-info-circle mt-1 mr-2 flex-shrink-0 text-orange-500"></i>
+                                        <span><strong>Important :</strong> Merci d'inscrire votre groupe avant 09h30.</span>
+                                    </div>
+                                    <a href="https://forms.gle/krV2Ad1p8p8uN5ja9" target="_blank" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center inline-flex items-center justify-center shadow-sm hover:shadow transition-all w-fit">
+                                        <i class="fab fa-google mr-2"></i> Lien vers le formulaire
+                                    </a>
+                                     <p class="text-xs text-gray-500 italic">
+                                        * Équipes mixtes autorisées (max 6).
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- Hackathon -->
+                        <tr class="border-b border-gray-200 hover:bg-gray-50">
+                            <td class="py-4 px-6 font-bold text-gray-600 whitespace-nowrap">08h00 - 14h00</td>
+                            <td class="py-4 px-6">Hackathon</td>
+                            <td class="py-4 px-6">
+                                <span class="bg-gray-100 text-gray-600 py-1 px-3 rounded-full text-xs">Libre</span>
+                            </td>
+                            <td class="py-4 px-6">
+                                Durée de 6 heures. Documents et connexion internet autorisés.
+                            </td>
+                        </tr>
+
+                        <!-- 14h00 Presentation -->
+                        <tr class="border-b border-gray-200 bg-blue-50 hover:bg-blue-100 border-l-4 border-l-blue-500">
+                            <td class="py-4 px-6 font-bold text-blue-800 whitespace-nowrap">14h00</td>
+                            <td class="py-4 px-6 font-bold text-blue-900">Présentation</td>
+                            <td class="py-4 px-6">
+                                <span class="bg-blue-200 text-blue-800 py-1 px-3 rounded-full text-xs font-bold">ISPM (Campus)</span>
+                            </td>
+                            <td class="py-4 px-6 text-blue-900">
+                                <strong>Présence obligatoire.</strong> Tous les groupes doivent être présents.<br>
+                                <span class="text-xs text-blue-800 mt-1 block">Les codes doivent être pushés sur votre repo après la présentation.</span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- MOBILE VIEW (Cards) - Visible on mobile -->
+            <div class="md:hidden space-y-4">
+                
+                <!-- 08h00 Card -->
+                <div class="border border-gray-200 rounded-lg p-4 shadow-sm bg-white">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-lg font-bold text-blue-600">08h00</span>
+                        <span class="bg-green-100 text-green-700 py-1 px-2 rounded text-xs uppercase font-bold">À distance</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 text-lg">Lancement du Sujet</h3>
+                    <div class="mt-2 text-sm text-gray-600">
+                        <p>Le sujet sera disponible sur le repository GitHub.</p>
+                        <a href="https://github.com/AndryRAB/Exam-ml-master-m2" target="_blank" class="text-gray-900 bg-gray-100 border border-gray-300 font-semibold mt-3 inline-flex items-center hover:bg-gray-200 px-4 py-2 rounded-lg w-full justify-center transition">
+                            <i class="fab fa-github mr-2"></i>Ouvrir le GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 09h30 Deadline Card - SOFTER DESIGN -->
+                <div class="border-l-4 border-l-orange-400 border-y border-r border-gray-200 rounded-lg p-4 shadow-sm bg-orange-50">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-lg font-bold text-orange-600">09h30</span>
+                        <span class="bg-white text-orange-600 border border-orange-200 py-1 px-2 rounded text-xs uppercase font-bold">En ligne</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 text-lg flex items-center"><i class="far fa-clock mr-2 text-orange-500"></i> Date limite d'inscription</h3>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p class="mb-3">Merci d'inscrire votre groupe avant 09h30. Les équipes mixtes sont autorisées.</p>
+                        <a href="https://forms.gle/krV2Ad1p8p8uN5ja9" target="_blank" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center inline-flex items-center justify-center shadow-sm hover:shadow transition-all w-full">
+                            <i class="fab fa-google mr-2"></i>Lien vers le formulaire
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hackathon Card -->
+                <div class="border border-gray-200 rounded-lg p-4 shadow-sm bg-gray-50">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-lg font-bold text-gray-600">08h00 - 14h00</span>
+                        <span class="bg-gray-200 text-gray-700 py-1 px-2 rounded text-xs uppercase font-bold">Libre</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 text-lg">Hackathon</h3>
+                    <div class="mt-2 text-sm text-gray-600">
+                        <p>Travail de groupe (6h). Documents et internet autorisés. Préparez votre code et vos slides.</p>
+                    </div>
+                </div>
+
+                <!-- 14h00 Presentation Card -->
+                <div class="border-l-4 border-l-blue-500 border-y border-r border-gray-200 rounded-lg p-4 shadow-sm bg-blue-50">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-lg font-bold text-blue-800">14h00</span>
+                        <span class="bg-blue-200 text-blue-800 py-1 px-2 rounded text-xs uppercase font-bold">ISPM (Campus)</span>
+                    </div>
+                    <h3 class="font-bold text-blue-900 text-lg">Présentation des Résultats</h3>
+                    <div class="mt-2 text-sm text-blue-900">
+                        <p><strong>Présence obligatoire.</strong> Tout le groupe doit être sur place. Code disponible sur votre repo pour relecture après la présentation.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Warning Box -->
+            <div class="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg flex items-start gap-3 shadow-sm">
+                <i class="fas fa-info-circle text-yellow-600 mt-1 flex-shrink-0"></i>
+                <div>
+                    <h4 class="font-bold text-yellow-800 text-sm md:text-base">Rappel Logistique & Équipes</h4>
+                    <ul class="text-xs md:text-sm text-yellow-700 mt-1 list-disc list-inside space-y-1">
+                        <li>Les équipes peuvent être <strong>mixtes</strong> (étudiants de parcours différents).</li>
+                        <li>N'oubliez pas de prendre en compte le trafic pour arriver à l'ISPM avant 14h00.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
