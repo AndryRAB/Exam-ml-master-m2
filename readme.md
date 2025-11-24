@@ -8,7 +8,7 @@ www.ispm-edu.com
 
 ## **1\. Contexte**
 
-Vous êtes l'équipe "Data & Sécurité" de la startup **PoketraFinday**.
+Vous êtes l'équipe "Data & Sécurité" de la startup *PoketraFinday*.
 
 ### **La Startup**
 
@@ -44,7 +44,7 @@ Vous disposez d'un jeu de données avec les colonnes suivantes :
 
 ## **3\. Votre Mission**
 
-Votre objectif est de maximiser le **F1-Score** sur la détection de fraude et de faire un rapport sur les fraudes que vous détectez à partir de vos analyses. Le fichier du train set est disponible dans ressources/train.csv.
+Votre objectif est de maximiser le F1-Score sur la détection de fraude et de faire un rapport sur les fraudes que vous détectez à partir de vos analyses. Le fichier du train set est disponible dans ressources/train.csv.
 
 ### **Étape 1 : EDA et préparation initiale des données**
 
@@ -88,7 +88,7 @@ Tout doit être disponible sur votre Repository GitHub.
    * Présentez votre équipe, votre analyse (EDA), les types de fraudes identifiés, votre Baseline vs Modèle Final.  
    * Lien de la vidéo dans le README ou fichier vidéo dans le repo (si \< 100Mo).  
 3. **Notebook & Code :** Le code doit être **clairement commenté** et structuré logiquement.  
-4. **README.md :** Utilisez le modèle **ressources/readme-model.md** fourni pour votre rapport. Il inclut les questions sur **F1-Score**, **FP/FN** et la **décision opérationnelle**.
+4. **README.md :** Utilisez le modèle *ressources/readme-model.md* fourni pour votre rapport. Il inclut les questions sur F1-Score, FP/FN et la décision opérationnelle.
 
 ## **5\. Critères d'Évaluation**
 
