@@ -33,7 +33,7 @@ Vous disposez d'un jeu de données avec les colonnes suivantes :
 | Colonne | Description |
 | :---- | :---- |
 | **transaction\_id** | Identifiant unique de la transaction (UUID). |
-| **step** | Unité de temps (1 heure). De 1 à 744 (30 jours). |
+| **step** | Unité de temps (1 heure). De 1 à 744 (31 jours). |
 | **type** | PAYMENT, TRANSFER, CASH\_OUT, DEBIT. |
 | **amount** | Montant en Ariary (MGA). |
 | **customer\_id** | Identifiant unique du client émetteur. |
@@ -52,7 +52,7 @@ Faites une Exploratory Data Analysis orientée vers la cible is\_fraud. Prépare
 
 ### **Étape 2 : Baseline : Régression Logistique**
 
-Vous devez commencer par entraîner une **Régression Logistique**.
+Vous devez commencer par entraîner une Régression Logistique.
 
 * Ce modèle servira de référence (Baseline).  
 * Vous devez analyser ses résultats avant de passer à plus complexe.
@@ -87,7 +87,7 @@ Tout doit être disponible sur votre Repository GitHub.
    * Remplace la soutenance physique.  
    * Présentez votre équipe, votre analyse (EDA), les types de fraudes identifiés, votre Baseline vs Modèle Final.  
    * Lien de la vidéo dans le README ou fichier vidéo dans le repo (si \< 100Mo).  
-3. **Notebook & Code :** Le code doit être **clairement commenté** et structuré logiquement.  
+3. **Notebook & Code :** Le code doit être clairement commenté et structuré logiquement.  
 4. **README.md :** Utilisez le modèle *ressources/readme-model.md* fourni pour votre rapport. Il inclut les questions sur F1-Score, FP/FN et la décision opérationnelle.
 
 ## **5\. Critères d'Évaluation**
